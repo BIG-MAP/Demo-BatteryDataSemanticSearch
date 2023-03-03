@@ -10,13 +10,13 @@ This Python-based codebase demonstrates a concrete implementation of FAIR data p
     * The Battery Archive datasets
 2. We structured the metadata into a document store, i.e. a list of JSON objects, each with a unique identifier, and a set of key:value pairs describing the metadata. Example `"UUID_123_456":{"CRate": 0.5, "Anode": "Graphite",...}`
 3. We mapped the metadata keys to ontological concepts defined in the BattINFO ontology, example `"Anode": "BattINFO#PositiveElectrode"`.
-4. We mapped the metadata keys to their unique identifiers using the parthood relationin EMMO.
+4. We mapped the metadata keys to their unique identifiers using the parthood relation in EMMO.
 5. We built a graph database, including the BattINFO concepts, the metadata keys, and all their mappings.
 6. We developed code to query the graph database using the RDFLIB API.
 7. We developed a Graphical User Interface to demonstrate the search graphically. In the GUI the user selects one or more ontology concepts, and the software retreives the datasets mapped to these ontological concepts.
 
 ## How to use
-* Install the packages in the `./requirements.txt` file. We reccomend using a virtual environment manager.
+* Install the packages in the `./requirements.txt` file. We recommend using a virtual environment manager.
 * In the command line run `streamlit run ./gui/app.py`. The graphical user interface should appear in the browser. 
 
 **Note:** The battery archive has ended the support to download the datasets, so some of the URLs in the results might not resolve.
