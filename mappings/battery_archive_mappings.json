@@ -1,0 +1,17 @@
+{
+    "anode":"https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_b6319c74_d2ce_48c0_a75a_63156776b302",
+    "cathode":"https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_35c650ab_3b23_4938_b312_1b0dede2e6d5",
+    "capacity_ah":"https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_791c1915_a791_4450_acd8_7f94764743b5",
+    "temperature":"http://emmo.info/emmo#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22",
+    "charge_crate":"https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_e1fd84eb_acdb_4b2c_b90c_e899d552a3ee",
+    "discharge_crate":"https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_25e20915_c35d_4bee_ad31_736235a79780",
+    "prismatic":"https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_da15df91_45aa_429c_a1e7_21f49a281f23",
+    "pouch":"https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_17e530cf_739c_4171_8a1d_8fe58625fc60",
+    "18650": "https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_aafe33ca_3fe3_4ff0_bed0_e7c925e26eba",
+    "LCO": "https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_b35895a0_7670_487b_9b39_db9360b7d907",
+    "graphite": "https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_ac7039df_3505_4355_aa52_41b4b5c2263b",
+    "NMC-LCO":"https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_505d39de_83f7_4c03_b492_f33e9de6f469",
+    "LFP": "https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_0eb372a5_5a48_4ae8_8b03_13119c127daa",
+    "NMC": "https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_b76da83a_cf58_4e8e_b34c_ed664cb33e93",
+    "NCA": "https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_ef78a657_216b_4832_9fb1_3a7776a3751e"
+}

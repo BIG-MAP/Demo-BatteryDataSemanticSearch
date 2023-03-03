@@ -1,0 +1,120 @@
+{
+    "name": "TRIEntryMetadata",
+    "version": "0.1",
+    "namespace": "http://onto-ns.com/meta",
+    "description": "Metadata for entry in the Toyota Research Institute Dataset",
+    "dimensions": [],
+    "properties": [
+        {
+            "name": "cell_id",
+            "type": "string",
+            "description": ""
+        },
+        {
+            "name": "provider",
+            "type": "string",
+            "description": "The institution that generated the data"
+        },
+        {
+            "name": "manufacturer",
+            "type": "string",
+            "description": "The company that manufactured the cells"
+        },
+        {
+            "name": "cell_type",
+            "type": "string",
+            "description": "Geometric form of the cell (e.g. cylindrical, coin)"
+        },
+        {
+            "name": "cathode",
+            "type": "string",
+            "description": ""
+        },
+        {
+            "name": "anode",
+            "type": "string",
+            "description": ""
+        },
+        {
+            "name": "nominal_capacity_ah",
+            "type": "float64",
+            "unit": "Ah",
+            "description": "Nominal capacity of the cell as per manufacturer specifications"
+        },        
+        {
+            "name": "nominal_voltage_v",
+            "type": "float64",
+            "unit": "V",
+            "description": "Nominal voltage of the cell as per manufacturer specifications"
+        },
+        {
+            "name": "chamber_temperature_c",
+            "type": "float64",
+            "unit": "C",
+            "description": "Temperature within the cycling chamber."
+        },
+        {
+            "name": "upper_voltage_cuttoff_v",
+            "type": "float64",
+            "unit": "V",
+            "description": "Voltage limit to which the cell is charged to."
+        },
+        {
+            "name": "lower_voltage_cuttoff_v",
+            "type": "float64",
+            "unit": "V",
+            "description": "Voltage limit to which the cell is discharged to."
+        },
+        {
+            "name": "drate",
+            "type": "float64",
+            "description": "Discharge rate. Units in C/n notation"
+        },
+        {
+            "name": "crate_1",
+            "type": "float64",
+            "description": "Cycling rate during first charging step. Units in C/n notation"
+        },        
+        {
+            "name": "crate_2",
+            "type": "float64",
+            "description": "Cycling rate during second charging step. Units in C/n notation"
+        },       
+        {
+            "name": "soc_switch",
+            "type": "float64",
+            "description": "Value of state of charge where charge protocol changes from first to second step."
+        },               
+        {
+            "name": "start_datetime",
+            "type": "string",
+            "description": "Datetime when the cycling starts, in ISO string format."
+        },               
+        {
+            "name": "version",
+            "type": "string",
+            "description": "Version of the data"
+        },               
+        {
+            "name": "rest_time_s",
+            "type": "float64",
+            "unit":"s",
+            "description": "Resting time after first charge step and after discharge"
+        },               
+        {
+            "name": "last_cycle",
+            "type": "float64",
+            "description": "Total number of time the cell was cycled."
+        },               
+        {
+            "name": "formation_cycle_rate",
+            "type": "float64",
+            "description": "Cycling rate during the formation cycle. Units in C/n notation"
+        },
+        {
+            "name": "repository_url",
+            "type": "string",
+            "description": "url to access the repository storing the data of the cell"
+        }
+    ]
+}

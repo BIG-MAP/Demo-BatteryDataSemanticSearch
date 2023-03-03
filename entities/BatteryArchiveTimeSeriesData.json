@@ -1,0 +1,97 @@
+{
+    "name": "BatteryArchiveEntryMetadata",
+    "version": "0.1",
+    "namespace": "http://onto-ns.com/meta",
+    "description": "Metadata for entry in Battery Archive",
+    "dimensions": [
+        {"name":"nrows",
+        "description":"number of rows of the time series"}
+    ],
+    "properties": [
+        {
+            "name": "Cell_id",
+            "type": "string",
+            "description": "Identifier of the data"
+        },
+        {
+            "name": "Date_Time",
+            "type": "string",
+            "dims": ["rows"],
+            "description": "Date of data recording step"
+        },
+        {
+            "name": "Test_Time",
+            "type": "float64",
+            "unit": "s",
+            "dims": ["rows"],
+            "description": "Time of data recording step"
+        },
+        {
+            "name": "Cycle_Index",
+            "type": "string",
+            "dims": ["rows"],
+            "description": "Current cycle"
+        },
+        {
+            "name": "Current",
+            "type": "string",
+            "unit": "A",
+            "dims": ["rows"],
+            "description": "Current"
+        },
+        {
+            "name": "Voltage",
+            "type": "string",
+            "unit": "V",
+            "dims": ["rows"],
+            "description": "Active material of the negative electrode"
+        },
+        {
+            "name": "Charge_Capacity",
+            "type": "float64",
+            "unit": "Ah",
+            "dims": ["rows"],
+            "description": "Nominal capacity of the cell"
+        },
+        {
+            "name": "Discharge_Capacity",
+            "type": "float64",
+            "unit": "Ah",
+            "dims": ["rows"],
+            "description": "Cycling temperature"
+        },
+        {
+            "name": "Charge_Energy",
+            "type": "float64",
+            "unit": "Wh",
+            "dims": ["rows"],
+            "description": "Minimum state of charge"
+        },
+        {
+            "name": "Discharge_Energy",
+            "type": "float64",
+            "unit": "Wh",
+            "dims": ["rows"],
+            "description": "Maximum state of charge"
+        },
+        {
+            "name": "Environment_Temperature",
+            "type": "float64",
+            "unit": "C",
+            "dims": ["rows"],
+            "description": "Current Rate during charge"
+        },
+        {
+            "name": "Cell_Temperature",
+            "type": "float64",
+            "unit": "C",
+            "dims": ["rows"],
+            "description": "Current Rate during discharge"
+        },
+        {
+            "name": "repository_url",
+            "type": "string",
+            "description": "url to access the repository storing the data of the cell"
+        }
+    ]
+}

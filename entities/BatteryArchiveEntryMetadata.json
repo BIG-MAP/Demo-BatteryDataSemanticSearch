@@ -1,0 +1,81 @@
+{
+    "name": "BatteryArchiveEntryMetadata",
+    "version": "0.1",
+    "namespace": "http://onto-ns.com/meta",
+    "description": "Metadata for entry in Battery Archive",
+    "dimensions": [],
+    "properties": [
+        {
+            "name": "cell_id",
+            "type": "string",
+            "description": "An identifier for the cell within the repository"
+        },
+        {
+            "name": "study",
+            "type": "string",
+            "description": "The institution that generated the data"
+        },
+        {
+            "name": "form_factor",
+            "type": "string",
+            "description": "Battery type"
+        },
+        {
+            "name": "cathode",
+            "type": "string",
+            "description": "Active material of the positive electrode"
+        },
+        {
+            "name": "anode",
+            "type": "string",
+            "description": "Active material of the negative electrode"
+        },
+        {
+            "name": "capacity_ah",
+            "type": "float64",
+            "unit": "Ah",
+            "description": "Nominal capacity of the cell"
+        },
+        {
+            "name": "temperature",
+            "type": "float64",
+            "unit": "C",
+            "description": "Cycling temperature"
+        },
+        {
+            "name": "min_soc",
+            "type": "float64",
+            "description": "Minimum state of charge"
+        },
+        {
+            "name": "max_soc",
+            "type": "float64",
+            "description": "Maximum state of charge"
+        },
+        {
+            "name": "charge_crate",
+            "type": "float64",
+            "description": "Current Rate during charge"
+        },
+        {
+            "name": "discharge_crate",
+            "type": "float64",
+            "description": "Current Rate during discharge"
+        },
+        {
+            "name": "timeseries_url",
+            "type": "string",
+            "description": "url to access time series data of the cell"
+        },
+        {
+            "name": "cycleseries_url",
+            "type": "string",
+            "description": "url to access cycle series data of the cell"
+        },
+        {
+            "name": "repository_url",
+            "type": "string",
+            "description": "url to access the repository storing the data of the cell"
+        }
+    ]
+}
