@@ -35,6 +35,8 @@ This project has received funding from the European Union’s Horizon 2020 resea
 
 # Developement notes
 
+**Fun Fact:** We came up with a cool acronym for **Ba**ttery **Da**ta **S**emantic **S**earch, but it ended up being inappropiate to use :) 
+
 ## To do
 * Have dataset-level triples: instead of having a metadata column with the same value across (e.g. if all cells are of the same cell type), delete such columns (free space) and encode a single mapping common to all datasets.
 * Parse battinfo from the latest web version. Currently the local file `battinfo-merged.ttl` is used, but is not updated.
